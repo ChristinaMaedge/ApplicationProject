@@ -1,0 +1,20 @@
+---
+title: "Application Project Umsatzprognose Bäckerei"
+author: "Christina M. Mädge, Marco Landt-Hayen"
+date: "3 4 2020"
+output: rmdformats::readthedown
+---
+
+```{r message=FALSE, error=FALSE, warning=FALSE}
+library(tidyverse) # Datenaufbereitung und ggplot
+```
+
+# Beispieldaten einlesen
+```{r}
+Beispieldaten <- read.csv("~/R/ApplicationProject/data/Beispieldaten.csv")
+KiWo <- read.csv("~/R/ApplicationProject/data/KiWo.csv")
+Wetter <- read.csv("~/R/ApplicationProject/data/Wetter.csv")
+```
+
+
+
